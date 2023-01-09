@@ -8,7 +8,7 @@ public class PlayerNetwork : NetworkBehaviour
    
     private void Update()
     {
-        if (!IsOwner)
+        if (!IsOwner) //Only owner can move the object
             return;
 
         Vector3 moveDir = new Vector3(0, 0, 0);

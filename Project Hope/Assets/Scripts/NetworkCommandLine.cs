@@ -34,7 +34,7 @@ public class NetworkCommandLine : MonoBehaviour
 
     private Dictionary<string, string> GetCommandlineArgs()
     {
-        Dictionary<string, string> argDictionary = new Dictionary<string, string>();
+        Dictionary<string, string> argDictionary = new Dictionary<string, string>(); //Hashmap
 
         var args = System.Environment.GetCommandLineArgs();
 
